@@ -5,7 +5,6 @@ var logger  = require('./helpers/logger.js')
   , user    = require('./models/users.js')
   , cfg     = require('./config.js')
   , http    = require('http')
-  , morgan  = require('morgan')
   , errorhandler = require('./middlewares/errorhandler.js')
   , customMw = require('./middlewares/middleware.js')
   , port    = process.env.PORT || 3000
