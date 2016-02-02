@@ -1,0 +1,27 @@
+{
+  "name": "NodeJs.Site.Template",
+  "version": "1.0.0",
+  "description": "NodeJs.Site.Template",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "nodemon": "nodemon -e js src/app.js",
+    "apidoc": "node node_modules/apidoc/bin/apidoc -i src/ -o src/public/"
+  },
+  "author": "ErshovAS",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "^0.14.0",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^5.5.4",
+    "morgan": "^1.6.1",
+    "node-cache": "^3.0.0",
+    "request": "^2.67.0",
+    "winston": "^2.1.1"
+  },
+  "apidoc": {
+    "title": "NodeJs.Site.Template API"
+  }
+}
