@@ -18,7 +18,6 @@ Run the following commands:
 git clone https://github.com/aershov24/node.restapi.template.git
 cd node.restapi.template
 npm install
-npm install nodemon -g
 npm run nodemon
 ```
 
