@@ -1,8 +1,5 @@
 NodeJS Rest API service template
 
-# Table of Contents
-1. [Installation](#installation)
-
 ## Description
 NodeJS Rest API service template uses the following modules and tools:
 
@@ -55,7 +52,7 @@ Use the following commented code as an example for your API methods documentatio
  *  }  
  */
 ```
-See more about APIdoc [here](http://apidocjs.com/) 
+See more about ApiDoc [here](http://apidocjs.com/) 
 
 ## Create ApiDoc Documentation
 Run the following commands:
